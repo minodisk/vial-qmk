@@ -1,0 +1,25 @@
+{
+    "keyboard_name": "KaWaii",
+    "manufacturer": "yohewi",
+    "url": "",
+    "maintainer": "yohewi",
+    "usb": {
+        "vid": "0x04D8",
+        "pid": "0xE95D",
+        "device_version": "0.0.1"
+    },
+    "features": {
+        "bootmagic": true,
+        "extrakey": true,
+        "mousekey": true
+    },
+    "build": {
+        "lto": true
+    },
+    "matrix_pins": {
+        "rows": [ "F4", "F5", "F6", "F7" ],
+        "cols": [ "B1", "B3", "B2", "B6", "B5", "B4", "E6", "D7", "C6", "D4" ]
+    },
+    "processor": "atmega32u4",
+    "bootloader": "atmel-dfu"
+}
